@@ -1,0 +1,57 @@
+.signUpSection,.signInSection{
+    height: 100vh;
+    width: 100%;
+    background-color: #24353f;
+}
+input{
+    color: white !important;
+}
+.box{
+    width: 55%;
+}
+h1{
+    color: rgb(215, 215, 215);
+    font-size: 2.5rem;
+}
+::placeholder{
+    color: rgb(180, 173, 173) !important;
+}
+button{
+    border: 1px solid #17a2b8;
+    color: #17a2b8;
+    border-radius: 5px;
+    transition: all 0.4s;
+}
+button:hover{
+    background-color: #17a2b8 !important;
+    color: white;
+}
+.clickSignIn,.clickSignUp{
+    cursor: pointer;
+}
+.font_size{
+    font-size: 5rem;
+}
+.Home div {
+    top: 5%;
+    left: 5%;
+    color: rgb(157, 32, 32);
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.Home i{
+    font-size: 3rem;
+
+}
+.Name{
+    border: 2px solid black;
+    padding: 15px;
+    background-color: #17a2b8;
+}
+.Home{
+    background-image: url(https://i.pinimg.com/564x/1b/52/9c/1b529c5d76f77fecf5f0d56ed82424c5.jpg);
+    background-position: center center;
+    background-size: contain;
+}

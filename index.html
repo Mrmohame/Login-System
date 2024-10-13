@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrp-Files&icons/css/all.min.css">
+    <link rel="stylesheet" href="bootstrp-Files&icons/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<section class="overflow-auto signUpSection d-block">
+    <div class="container  mx-auto shadow-lg my-5 py-5 px-5 box">
+        <h1 class="text-center">Smart Login System</h1>
+<div class="inner my-3 py-3">
+    
+    <input type="text" class="form-control my-3 bg-transparent " id="nameIinput" placeholder="Enter your Name">
+<input type="email" class="form-control my-3 bg-transparent " id="emailIinput" placeholder="Enter your Email">
+<input type="password" class="form-control my-3 bg-transparent " id="passwordIinput" placeholder="Enter  password">
+<p class="text-danger pt-1 pb-2 text-center empty1 d-none">All inputs are required</p>
+<p class="text-success pt-1 pb-2 text-center empty2 d-none">Succes</p>
+<p class="text-warning pt-1 pb-2 text-center empty3 d-none">Your are Here</p>
+<p class="text-danger pt-1 pb-2 text-center empty4 d-none">the values are wrong</p>
+
+<button class="w-100 bg-transparent p-2 signUp">Sign Up</button>
+
+<p class="text-center text-white pt-4">do you have an account <span class="text-decoration-underline clickSignIn">signIn</span></p>
+</div>
+    </div>
+</section>
+
+<section class="overflow-auto signInSection d-none">
+    <div class="container  mx-auto shadow-lg my-5 py-5 px-5 box">
+        <h1 class="text-center">Smart Login System</h1>
+<div class="inner my-3 py-3">
+    
+    <!-- <input type="text" class="form-control my-3 bg-transparent " id="nameIinput" placeholder="Enter your Name"> -->
+<input type="email" class="form-control my-3 bg-transparent " id="emailIinputSignIn" placeholder="Enter your Email">
+<input type="password" class="form-control my-3 bg-transparent " id="passwordIinputSignIn" placeholder="Enter  password">
+<p class="text-danger pt-1 pb-2 text-center emptyIn1 d-none">All inputs are required</p>
+<p class="text-success pt-1 pb-2 text-center emptyIn2 d-none">Succes</p>
+<p class="text-warning pt-1 pb-2 text-center emptyIn3 d-none">Your are Here</p>
+<p class="text-danger pt-1 pb-2 text-center emptyIn4 d-none">the values are wrong</p>
+
+<button class="w-100 bg-transparent p-2 signUp">Sign In</button>
+<p class="text-center text-white pt-4">do you have an account <span class="text-decoration-underline clickSignUp">signUp</span></p>
+</div>
+    </div>
+</section>
+
+<section class="Home d-none overflow-auto d-flex justify-content-center align-items-center  w-100 vh-100 position-relative">
+<div class="position-absolute logOut">
+    <i class="fa-solid fa-right-from-bracket   "></i>
+    <p>log Out</p>
+</div>
+<h1 class="text-center font_size " id="demo"></h1>
+</section>
+    <script src="bootstrp-Files&icons/js/bootstrap.bundle.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
